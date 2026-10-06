@@ -1,0 +1,21 @@
+﻿Trilha,Prioridade,Nível-alvo,Horas no plano,% do tempo técnico,Horas de prática,% prática na trilha
+T00 Diagnóstico e setup,Essencial,—,18,"3,1%",18,100%
+"T01 Linguagens e ferramentas (Go, Python, TypeScript, Git/GitHub)",Essencial (TypeScript: recomendado),Go e Python: intermediário-avançado; TypeScript: intermediário; Git/GitHub: avançado,30,"5,2%",27,90%
+"T02 Bancos de dados, SQL e modelagem (PostgreSQL)",Essencial,Intermediário-avançado,"15,5","2,7%",14,90%
+"T03 APIs, webhooks e integrações (HTTP, idempotência, retries, rate limits)",Essencial,Avançado,"15,5","2,7%",12,77%
+"T04 Sistemas distribuídos e arquitetura event-driven (Pub/Sub, outbox)",Essencial,Intermediário-avançado,"15,5","2,7%","8,5",55%
+"T05 Orquestração de workflows (Temporal, sagas)",Essencial,Intermediário-avançado,31,"5,4%","28,5",92%
+"T06 Arquitetura de domínio (DDD, Clean Architecture, CQRS, projeções, migração lado a lado)",Essencial,Intermediário-avançado (capaz de revisar),"45,5","7,9%","33,5",74%
+"T07 Cloud GCP e DevOps (Cloud Run, Cloud SQL, Cloud Build, CI/CD)",Essencial,Intermediário,27,"4,7%",26,96%
+"T08 Confiabilidade, testes e observabilidade (SRE, incidentes, RCA)",Essencial,Intermediário-avançado,"65,5","11,4%",58,89%
+"T09 Dados, analytics e qualidade (BigQuery, dbt, reconciliação, BI)",Essencial (BI e Snowflake: recomendado/baixa),Intermediário,"36,5","6,3%","35,5",97%
+"T10 Integrações do domínio (Stripe, Airtable; Healthie, PandaDoc, Cognito)","Essencial (Healthie, PandaDoc, Cognito: opcional)",Avançado em Stripe e Airtable; familiaridade nas demais,53,"9,2%","43,5",82%
+"T11 IA aplicada (Document AI, Gemini, human-in-the-loop, evals)",Essencial (é o produto que o cargo lidera),Intermediário,27,"4,7%",24,89%
+"T12 Growth engineering e frontend (Next.js, A/B, tracking, anúncios)",Recomendado,Intermediário,34,"5,9%",29,85%
+"T13 Segurança e compliance (estilo HIPAA, PHI, acesso, auditoria)",Essencial,Intermediário,"19,5","3,4%",13,67%
+"T14 Engenharia AI-native (Claude Code, Codex, guardrails, testes de arquitetura, multiagente)",Essencial,Avançado,29,"5,0%",29,100%
+"T15 Liderança, gestão de projetos e comunicação (~10% do tempo técnico)",Essencial,Intermediário (simulado) com evidência escrita,69,"12,0%",67,97%
+"T16 Produto, operações e negócio (processos, automação de Ops, startup)",Recomendado,Intermediário,4,"0,7%",1,25%
+"T17 Inglês técnico e entrevistas (1h/dia, fora das 4h técnicas)",Essencial,C1 funcional para entrevistas (meta a calibrar no diagnóstico),144,fora das 4h,—,—
+T18 Carreira e candidatura (semanas 23-24),Essencial,Pronto para processos de vagas intermediárias,"17,5","3,0%","16,5",94%
+Reforço flex (alocado pelo diagnóstico),—,—,23,"4,0%",—,—

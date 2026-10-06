@@ -1,5 +1,3 @@
-<!-- Arquivo gerado por scripts/gerar.py — edite scripts/plano/templates/README.md. -->
-
 # Road to Success: plano de 24 semanas para vagas de Backend / Engineering Lead
 
 Plano de estudos completo para se preparar para vagas como **Engineering Lead: Backend Systems & Growth** (healthtech nos
@@ -9,10 +7,10 @@ remotas de Software Engineer (backend, DevOps, MLOps) em empresas dos EUA.
 | | |
 |---|---|
 | Duração | 24 semanas × 6 dias · 4 h técnicas + 1 h de inglês por dia |
-| Horas | 576 h técnicas (84% prática) + 144 h de inglês |
-| Cobertura | 238 tópicos (todos os itens das seções 3 e 4 do pedido), cada um com semana e forma de comprovação |
+| Horas | {{HORAS_TEC}} h técnicas ({{PCT_PRATICA}} prática) + {{HORAS_EN}} h de inglês |
+| Cobertura | {{N_TOPICOS}} tópicos (todos os itens das seções 3 e 4 do pedido), cada um com semana e forma de comprovação |
 | Projeto | **LeaveFlow**: intake e gestão de casos de afastamento médico com dados fictícios, construído semana a semana |
-| Recursos | 146 materiais com links conferidos em outubro de 2026, priorizando gratuitos e oficiais |
+| Recursos | {{N_RECURSOS}} materiais com links conferidos em outubro de 2026, priorizando gratuitos e oficiais |
 
 ## Comece por aqui
 
