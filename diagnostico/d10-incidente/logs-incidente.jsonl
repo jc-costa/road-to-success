@@ -1,0 +1,16 @@
+{"ts":"2026-03-12T14:02:01.112Z","sev":"INFO","svc":"billing-webhooks","msg":"webhook received","event_id":"evt_9f2a","type":"payment.succeeded","case_id":"case_7781","attempt":1}
+{"ts":"2026-03-12T14:02:01.540Z","sev":"INFO","svc":"billing-webhooks","msg":"followup charge created","event_id":"evt_9f2a","case_id":"case_7781","provider_charge_id":"ch_55120","amount_cents":4900}
+{"ts":"2026-03-12T14:02:01.561Z","sev":"INFO","svc":"billing-webhooks","msg":"case marked paid","case_id":"case_7781"}
+{"ts":"2026-03-12T14:02:01.562Z","sev":"INFO","svc":"billing-webhooks","msg":"notifying ops queue","case_id":"case_7781"}
+{"ts":"2026-03-12T14:02:11.120Z","sev":"WARN","svc":"payment-provider","msg":"delivery timed out after 10000 ms, scheduling retry","event_id":"evt_9f2a","endpoint":"/webhooks/payments","next_attempt_in_s":1}
+{"ts":"2026-03-12T14:02:12.204Z","sev":"INFO","svc":"billing-webhooks","msg":"webhook received","event_id":"evt_9f2a","type":"payment.succeeded","case_id":"case_7781","attempt":2}
+{"ts":"2026-03-12T14:02:12.611Z","sev":"INFO","svc":"billing-webhooks","msg":"followup charge created","event_id":"evt_9f2a","case_id":"case_7781","provider_charge_id":"ch_55121","amount_cents":4900}
+{"ts":"2026-03-12T14:02:12.630Z","sev":"INFO","svc":"billing-webhooks","msg":"case marked paid","case_id":"case_7781"}
+{"ts":"2026-03-12T14:02:12.631Z","sev":"INFO","svc":"billing-webhooks","msg":"notifying ops queue","case_id":"case_7781"}
+{"ts":"2026-03-12T14:02:13.950Z","sev":"INFO","svc":"ops-queue","msg":"notification accepted","case_id":"case_7781","latency_ms":12388}
+{"ts":"2026-03-12T14:02:14.010Z","sev":"INFO","svc":"billing-webhooks","msg":"responded","event_id":"evt_9f2a","status":200,"duration_ms":12806,"attempt":1}
+{"ts":"2026-03-12T14:02:14.020Z","sev":"INFO","svc":"ops-queue","msg":"notification accepted","case_id":"case_7781","latency_ms":1389}
+{"ts":"2026-03-12T14:02:14.031Z","sev":"INFO","svc":"billing-webhooks","msg":"responded","event_id":"evt_9f2a","status":200,"duration_ms":1827,"attempt":2}
+{"ts":"2026-03-12T14:05:40.000Z","sev":"INFO","svc":"ops-queue","msg":"p95 latency last 5 min","latency_ms_p95":11850,"note":"pico de carga: campanha de marketing às 14h"}
+{"ts":"2026-03-12T16:40:03.300Z","sev":"WARN","svc":"support","msg":"ticket opened","ticket":"T-3321","summary":"cliente reporta duas cobranças de US$49 no mesmo minuto","case_id":"case_7781"}
+{"ts":"2026-03-12T17:15:00.000Z","sev":"WARN","svc":"finance-recon","msg":"daily reconciliation","duplicate_followup_charges":37,"window":"2026-03-12T13:30Z/2026-03-12T15:30Z"}
